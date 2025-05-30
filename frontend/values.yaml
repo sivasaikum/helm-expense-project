@@ -1,0 +1,7 @@
+configmap:
+  db_host: backend
+deployment:
+  version: 2.2.0
+  replicas: 1
+hpa:
+  Utilization: 70
