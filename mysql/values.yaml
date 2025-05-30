@@ -1,0 +1,4 @@
+statefulset:
+  replicas: 3
+  storage: 2Gi
+  version: 2.0.0
